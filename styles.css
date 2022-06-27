@@ -66,7 +66,7 @@ text-align: center;
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 150px;
+    height: 140px;
     border: 1px solid black;
 }
 
@@ -75,7 +75,7 @@ text-align: center;
     height: 40px;
     /* align-items: center;
     justify-content: center; */
-    margin: 5px 2px 0px 2px;
+    margin: 2px 2px 2px 2px;
     text-align: center;
     padding-top: 10px;
 }
@@ -84,7 +84,7 @@ text-align: center;
     /* border: 1px solid black; */
     height: 40px;
     display: flex;
-    margin: 5px 2px 0px 2px;
+    margin: 2px 2px 0px 2px;
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ text-align: center;
     /* border: 1px solid black; */
     height: 40px;
     display: flex;
-    margin: 5px 2px 0px 2px;
+    margin: 2px 2px 0px 2px;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ text-align: center;
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 190px;
+    height: 165px;
     border: 1px solid black;
 }
 
@@ -151,7 +151,7 @@ text-align: center;
     height: 40px;
     /* align-items: center;
     justify-content: center; */
-    margin: 5px 2px 0px 2px;
+    margin: 2px 2px 0px 2px;
     text-align: center;
     padding-top: 15px;
 }
@@ -159,7 +159,7 @@ text-align: center;
 .nes1_last {
     height: 100px;
     border: 1px solid black;
-    margin: 5px 5px 2px 5px;
+    margin: 2px 2px 2px 2px;
     padding-left: 10px;
 }
 
@@ -175,10 +175,10 @@ text-align: center;
 .nes3_top {
     border: 1px solid black;
     height: 30px;
-    width: 360px;
+    width: 370px;
     /* align-items: center;
     justify-content: center; */
-    margin: 1px 1px 5px 10px;
+    margin: 2px 1px 2px 2px;
     text-align: center;
     padding-top: 5px;
 }
@@ -186,7 +186,7 @@ text-align: center;
 .nes3_last {
     height: 30px;
     display: flex;
-    margin: 5px 2px 2px 10px;
+    margin: 1px 2px 2px 2px;
     text-align: center;
 }
 
@@ -216,13 +216,14 @@ text-align: center;
 
 .nes4 {
     border: 1px solid black;
-    height: 30px;
-    width: 360px;
+    height: 25px;
+    width: 380px;
     /* align-items: center;
     justify-content: center; */
-    margin: 5px 1px 5px 10px;
+    margin: 2px 1px 1px 2px;
     text-align: center;
-    padding-top: 15px;
+    padding: 5px;
+    align-items: center;
 }
 
 .html {
@@ -233,19 +234,19 @@ text-align: center;
 .nested3 {
     /* align-items: center;
     justify-content: center; */
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 120px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 0px;
+    height: 80px;
     border: 1px solid black;
 }
 
 .nested4 {
     /* align-items: center;
     justify-content: center; */
-    margin-top: 10px;
-    margin-left: 5px;
+    margin-top: 20px;
+    margin-left: 3px;
     margin-right: 5px;
-    height: 120px;
+    height: 80px;
     border: 1px solid black;
 }
