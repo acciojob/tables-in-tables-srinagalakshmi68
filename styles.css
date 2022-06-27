@@ -24,8 +24,19 @@ text-align: center;
     background-color: black;
 }*/
 
+.mainDiv {
+    height: 450px;
+    width: 820px;
+    border: 1px solid black;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
 .first {
-    height: 500px;
+    height: 443px;
     width: 800px;
     border: 1px solid black;
     padding: 5px;
@@ -167,9 +178,9 @@ text-align: center;
     width: 360px;
     /* align-items: center;
     justify-content: center; */
-    margin: 5px 1px 5px 10px;
+    margin: 1px 1px 5px 10px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .nes3_last {
@@ -217,4 +228,24 @@ text-align: center;
 .html {
     background-color: black;
     color: white;
+}
+
+.nested3 {
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.nested4 {
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 120px;
+    border: 1px solid black;
 }
