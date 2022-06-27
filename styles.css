@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
     margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -6,20 +6,215 @@
 }
 
 .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
+    /* background-color: rgba(255, 255, 255, 0.5); 
 
+background-color: transparent;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+
+}
 .flex-box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #black {
     background-color: black;
+}*/
+
+.first {
+    height: 500px;
+    width: 800px;
+    border: 1px solid black;
+    padding: 5px;
+    /* margin: 10px solid black; */
+}
+
+.second {
+    display: flex;
+    /* width: 100%; */
+    /* background-color: aqua; */
+    height: 300px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.sec1 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.nested2 {
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.nes2_top {
+    border: 1px solid black;
+    height: 40px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 5px 2px 0px 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nes2_mid {
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    margin: 5px 2px 0px 2px;
+    text-align: center;
+}
+
+.col1 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.col2 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.nes2_last {
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    margin: 5px 2px 0px 2px;
+    text-align: center;
+}
+
+.text1 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.text2 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.sec2 {
+    flex: 0.5;
+    border: 1px solid black;
+    margin: 2px;
+    /* float: right;
+    align-items: center; */
+}
+
+.nested1 {
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 190px;
+    border: 1px solid black;
+}
+
+.nes1_top {
+    border: 1px solid black;
+    height: 40px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 5px 2px 0px 2px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nes1_last {
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px 5px 2px 5px;
+    padding-left: 10px;
+}
+
+.third {
+    display: flex;
+    /* width: 100%; */
+    /* background-color: blue; */
+    height: 150px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.nes3_top {
+    border: 1px solid black;
+    height: 30px;
+    width: 360px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 5px 1px 5px 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nes3_last {
+    height: 30px;
+    display: flex;
+    margin: 5px 2px 2px 10px;
+    text-align: center;
+}
+
+.linktag {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.sec3 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.sec4 {
+    flex: 0.5;
+    border: 1px solid black;
+    margin: 2px;
+    /* float: right;
+    align-items: center; */
+}
+
+.nes4 {
+    border: 1px solid black;
+    height: 30px;
+    width: 360px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 5px 1px 5px 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.html {
+    background-color: black;
+    color: white;
 }
